@@ -29,7 +29,7 @@ class LTNews(ArticleCrawler):
 			content = p_list[p].get_text().strip()
 			if(content == ""):
 				continue;
-			elif(content == "新聞辭典"):
+			elif(content == u"\u65b0\u805e\u8fad\u5178"):
 				isDictionary = True
 				continue
 			elif(isDictionary):
