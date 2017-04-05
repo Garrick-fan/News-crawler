@@ -14,3 +14,4 @@ class ArticleCrawler:
 		pass
 	def getTitle():
 		pass
+		

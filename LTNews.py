@@ -65,7 +65,3 @@ class LTNews(ArticleCrawler):
 	def GetAllArticles(self):
 		for i in range(1, int(self.maxUrlListID)+1):
 			self.GetArticlesWithUrlListID(i)
-
-	
-
-

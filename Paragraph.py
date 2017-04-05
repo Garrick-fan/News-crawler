@@ -7,3 +7,4 @@ class Paragraph(object):
   		content  = "EN:" + self.EnParagraph + "\n"
   		content += "CH:" + self.ChParagraph + "\n"
   		return content
+

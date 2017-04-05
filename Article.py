@@ -21,3 +21,4 @@ class Article(object):
 		for i in self.dictionary:
   			description += "[D]" + i + "\n"
 		return description
+		
